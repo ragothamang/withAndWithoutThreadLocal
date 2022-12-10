@@ -23,7 +23,13 @@ public class TC001_VerifyLogin extends ProjectSpecificMethods{
 		.enterPassword(password)
 		.clickLogin();
 //		.verifyHomePage();// local repo change in line 25
-
+		/*
+<<<<<<< HEAD
+//		.verifyHomePage();// local repo change in line 25
+=======
+//		.verifyHomePage(); // remote edit
+>>>>>>> 9f1dc99ed0e9167e209857cdbee7bc91d5a65182
+*/
 	}
 
 }
