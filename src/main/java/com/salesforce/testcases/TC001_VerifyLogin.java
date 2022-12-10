@@ -22,7 +22,7 @@ public class TC001_VerifyLogin extends ProjectSpecificMethods{
 		.enterUsername(username)
 		.enterPassword(password)
 		.clickLogin();
-//		.verifyHomePage();
+//		.verifyHomePage(); // remote edit
 
 	}
 
